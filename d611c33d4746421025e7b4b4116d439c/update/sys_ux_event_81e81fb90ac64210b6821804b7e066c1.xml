@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>MY_TASKS_REJECT</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>My tasks reject</label>
+        <props>[{"name":"sysId","fieldType":"string","label":"Sys ID","interfaceApiName":"","typeMetadata":null,"mandatory":false,"readOnly":false},{"name":"table","fieldType":"string","label":"Table","interfaceApiName":"","typeMetadata":null,"mandatory":false,"readOnly":false}]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-05-09 16:50:19</sys_created_on>
+        <sys_id>81e81fb90ac64210b6821804b7e066c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My tasks reject</sys_name>
+        <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
+        <sys_update_name>sys_ux_event_81e81fb90ac64210b6821804b7e066c1</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-05-09 16:50:19</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=81e81fb90ac64210b6821804b7e066c1"/>
+</record_update>
