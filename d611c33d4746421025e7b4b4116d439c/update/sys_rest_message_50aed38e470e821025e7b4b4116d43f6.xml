@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
+    <sys_rest_message action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <authentication_type>no_authentication</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <description/>
+        <name>Omdb</name>
+        <oauth2_profile/>
+        <protocol_name/>
+        <rest_endpoint>http://img.omdbapi.com</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-10 11:54:42</sys_created_on>
+        <sys_id>50aed38e470e821025e7b4b4116d43f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Omdb</sys_name>
+        <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
+        <sys_update_name>sys_rest_message_50aed38e470e821025e7b4b4116d43f6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-10 11:54:42</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
+</record_update>

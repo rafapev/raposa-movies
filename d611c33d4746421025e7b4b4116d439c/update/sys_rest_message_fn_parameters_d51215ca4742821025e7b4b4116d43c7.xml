@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
+        <name>aka</name>
+        <rest_message_function display_value="Default GET">8c1f09064742821025e7b4b4116d43e3</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-10 01:39:43</sys_created_on>
+        <sys_id>d51215ca4742821025e7b4b4116d43c7</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>aka</sys_name>
+        <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_d51215ca4742821025e7b4b4116d43c7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-10 02:54:39</sys_updated_on>
+        <type>string</type>
+        <value>Titanic</value>
+    </sys_rest_message_fn_parameters>
+</record_update>

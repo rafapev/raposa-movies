@@ -56,8 +56,8 @@
         <record/>
         <record_producer_table>x_1300284_raposa_0_filmes</record_producer_table>
         <reference/>
-        <reference_qual>undefined</reference_qual>
-        <reference_qual_condition>undefined</reference_qual_condition>
+        <reference_qual/>
+        <reference_qual_condition/>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
@@ -77,17 +77,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-10 01:14:19</sys_created_on>
         <sys_id>f42c89c24742821025e7b4b4116d43a4</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Sinopse</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
         <sys_update_name>item_option_new_f42c89c24742821025e7b4b4116d43a4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-10 01:15:22</sys_updated_on>
+        <sys_updated_on>2024-05-10 01:17:46</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>23</type>
+        <type>2</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>

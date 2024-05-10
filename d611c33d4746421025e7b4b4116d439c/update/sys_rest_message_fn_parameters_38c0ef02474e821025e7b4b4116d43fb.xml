@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
+        <name>t</name>
+        <rest_message_function display_value="Default GET">79de178e470e821025e7b4b4116d4338</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-10 12:03:06</sys_created_on>
+        <sys_id>38c0ef02474e821025e7b4b4116d43fb</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>t</sys_name>
+        <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_38c0ef02474e821025e7b4b4116d43fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-10 12:15:24</sys_updated_on>
+        <type>string</type>
+        <value>titanic</value>
+    </sys_rest_message_fn_parameters>
+</record_update>
