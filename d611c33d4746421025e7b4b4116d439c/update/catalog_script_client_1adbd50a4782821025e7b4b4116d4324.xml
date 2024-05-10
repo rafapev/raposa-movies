@@ -19,27 +19,37 @@
         <order/>
         <published_ref/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
-   if (isLoading || newValue == '') {
-      return;
-   }
+    if (isLoading || newValue == '') {
+        return;
+    }
 
-   //Type appropriate comment here, and begin script below
-   var ga = new GlideAjax('x_1300284_raposa_0.Filme');
-   ga.addParam('sysparm_name', 'searchFilme');
-   ga.addParam('sysparm_filme', newValue);
-   ga.getXML(callback);
+    //Type appropriate comment here, and begin script below
+    var ga = new GlideAjax('x_1300284_raposa_0.Filme');
+    ga.addParam('sysparm_name', 'searchFilme');
+    ga.addParam('sysparm_filme', newValue.replace(/ /g, '+'));
+	ga.getXML(callback);
 
-   function callback(response){
+    function callback(response) {
 
-	var answer = response.responseXML.documentElement.getAttribute("answer");
-	var data = JSON.parse(answer);
-	g_form.setValue('nome_do_filme', data.Title);
-	g_form.setValue('nota_imdb', data.imdbRating);
-	g_form.setValue('categoria', data.Genre);
-	g_form.setValue('sinopse', data.Plot);
-	g_form.setValue('poster', data.Poster);
-   }
-   
+        var answer = response.responseXML.documentElement.getAttribute("answer");
+        var data = JSON.parse(answer);		
+		
+        if (data.Response == 'True') {
+			//g_form.setValue('nome_do_filme', data.Title);
+            g_form.setValue('nota_imdb', data.imdbRating);
+            g_form.setValue('categoria', data.Genre);
+            g_form.setValue('sinopse', data.Plot);
+            g_form.setValue('poster', data.Poster);
+
+        } else {
+            g_form.clearValue('nota_imdb');
+            g_form.clearValue('categoria');
+            g_form.clearValue('sinopse');
+            g_form.clearValue('poster');
+        }
+
+    }
+
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -47,7 +57,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1adbd50a4782821025e7b4b4116d4324</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Integração Filme</sys_name>
         <sys_overrides/>
         <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
@@ -55,7 +65,7 @@
         <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
         <sys_update_name>catalog_script_client_1adbd50a4782821025e7b4b4116d4324</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-10 13:01:29</sys_updated_on>
+        <sys_updated_on>2024-05-10 19:33:39</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>0</ui_type>
