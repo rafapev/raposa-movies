@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="nota_da_raposa" label="Nota da Raposa" language="en" table="x_1300284_raposa_0_filmes">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>nota_da_raposa</element>
+            <help/>
+            <hint/>
+            <label>Nota da Raposa</label>
+            <language>en</language>
+            <name>x_1300284_raposa_0_filmes</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-09 16:27:45</sys_created_on>
+            <sys_id>b7b39bf147c6421025e7b4b4116d43c2</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_name>Nota da Raposa</sys_name>
+            <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
+            <sys_update_name>sys_documentation_x_1300284_raposa_0_filmes_nota_da_raposa_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-10 20:07:09</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
