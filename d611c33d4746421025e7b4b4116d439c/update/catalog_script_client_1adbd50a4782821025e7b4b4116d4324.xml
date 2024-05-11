@@ -40,6 +40,7 @@
             g_form.setValue('categoria', data.Genre);
             g_form.setValue('sinopse', data.Plot);
             g_form.setValue('poster', data.Poster);
+			g_form.setValue('imagem', '<img src="' + data.Poster +'"/>');
 
         } else {
             g_form.clearValue('nota_imdb');
@@ -57,7 +58,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1adbd50a4782821025e7b4b4116d4324</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>Integração Filme</sys_name>
         <sys_overrides/>
         <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
@@ -65,7 +66,7 @@
         <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
         <sys_update_name>catalog_script_client_1adbd50a4782821025e7b4b4116d4324</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-10 19:42:13</sys_updated_on>
+        <sys_updated_on>2024-05-11 01:19:49</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>0</ui_type>
