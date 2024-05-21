@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="imdb_id" label="Imdb Id" language="en" table="x_1300284_raposa_0_filmes">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>imdb_id</element>
+            <help/>
+            <hint/>
+            <label>Imdb Id</label>
+            <language>en</language>
+            <name>x_1300284_raposa_0_filmes</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-15 02:10:28</sys_created_on>
+            <sys_id>c01903234702421025e7b4b4116d4330</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Imdb Id</sys_name>
+            <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
+            <sys_update_name>sys_documentation_x_1300284_raposa_0_filmes_imdb_id_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-15 02:10:28</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

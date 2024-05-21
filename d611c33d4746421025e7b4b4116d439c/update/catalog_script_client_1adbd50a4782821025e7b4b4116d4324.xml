@@ -39,15 +39,15 @@
             setTimeout(function() {
                 g_form.clearMessages();
             }, 5000);
-			clearFields();
+            clearFields();
+			
         } else if (data.Response == 'True') {
             g_form.setValue('titulo', data.Title);
             g_form.setValue('nota_imdb', data.imdbRating);
             g_form.setValue('categoria', data.Genre);
             g_form.setValue('sinopse', data.Plot);
-            g_form.setValue('poster', data.Poster);
+            g_form.setValue('imdb_id', data.imdbID);
             g_form.setValue('imagem', '<img src="' + data.Poster + '"/>');
-
         }
     }
 
@@ -58,7 +58,11 @@
         g_form.clearValue('nota_imdb');
         g_form.clearValue('categoria');
         g_form.clearValue('sinopse');
+        g_form.clearValue('poster');
         g_form.clearValue('imagem');
+        g_form.clearValue('diretor');
+        g_form.clearValue('ator');
+
     }
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
@@ -67,7 +71,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1adbd50a4782821025e7b4b4116d4324</sys_id>
-        <sys_mod_count>102</sys_mod_count>
+        <sys_mod_count>110</sys_mod_count>
         <sys_name>Integração Filme</sys_name>
         <sys_overrides/>
         <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
@@ -75,7 +79,7 @@
         <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
         <sys_update_name>catalog_script_client_1adbd50a4782821025e7b4b4116d4324</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-13 17:21:48</sys_updated_on>
+        <sys_updated_on>2024-05-15 02:13:46</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
