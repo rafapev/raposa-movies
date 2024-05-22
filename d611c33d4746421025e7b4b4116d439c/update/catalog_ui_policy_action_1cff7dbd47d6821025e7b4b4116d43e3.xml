@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Filme Avaliação">55cc75b947d6821025e7b4b4116d43bd</catalog_item>
+        <catalog_variable>IO:05ee313d47d6821025e7b4b4116d4323</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-21 20:37:30</sys_created_on>
+        <sys_id>1cff7dbd47d6821025e7b4b4116d43e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>comentarios_adicionais</sys_name>
+        <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_1cff7dbd47d6821025e7b4b4116d43e3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-21 20:37:30</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Comentarios Adicionais Obrigatoriedade">7c4ffd7d47d6821025e7b4b4116d4396</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>comentarios_adicionais</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>
