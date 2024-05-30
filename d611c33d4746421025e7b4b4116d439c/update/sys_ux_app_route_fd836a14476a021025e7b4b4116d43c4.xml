@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Raposa Workspace App Config">063f24801a2a86105e4a8bdd8e697a2e</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Dashboard</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Home">c63f24803b2a8610fadd32e742e3f018</parent_macroponent>
+        <parent_macroponent_composition_element_id>contextual_sidebar_1</parent_macroponent_composition_element_id>
+        <route_type>dashboard</route_type>
+        <screen_type display_value="Dashboard">b9836a14476a021025e7b4b4116d43c1</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:37:35</sys_created_on>
+        <sys_id>fd836a14476a021025e7b4b4116d43c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dashboard</sys_name>
+        <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
+        <sys_update_name>sys_ux_app_route_fd836a14476a021025e7b4b4116d43c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:37:35</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=fd836a14476a021025e7b4b4116d43c4"/>
+</record_update>

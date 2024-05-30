@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_source">
+    <sys_report_source action="INSERT_OR_UPDATE">
+        <description/>
+        <display>Porcentagem de avaliação (Requested Item)</display>
+        <filter/>
+        <name>Porcentagem de avaliação</name>
+        <sys_class_name>sys_report_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 13:33:27</sys_created_on>
+        <sys_id>8c8be19c4762021025e7b4b4116d43e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Porcentagem de avaliação (Requested Item)</sys_name>
+        <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
+        <sys_update_name>sys_report_source_8c8be19c4762021025e7b4b4116d43e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 13:33:27</sys_updated_on>
+        <table>sc_req_item</table>
+    </sys_report_source>
+</record_update>

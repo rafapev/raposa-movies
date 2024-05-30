@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="m2m_Filmes_Ators">c84fe480472a861025e7b4b4116d4304</ais_search_source>
+        <label>m2m_Filmes_Ators</label>
+        <name>m2m_Filmes_Ators</name>
+        <order>300</order>
+        <search_context_config display_value="Raposa Workspace AI Search Configuration">0a3f2480472a86109c180638418d5b24</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-28 14:31:05</sys_created_on>
+        <sys_id>c44fe480472a861025e7b4b4116d430a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>m2m_Filmes_Ators</sys_name>
+        <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
+        <sys_update_name>sys_search_filter_c44fe480472a861025e7b4b4116d430a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-28 14:31:05</sys_updated_on>
+    </sys_search_filter>
+</record_update>

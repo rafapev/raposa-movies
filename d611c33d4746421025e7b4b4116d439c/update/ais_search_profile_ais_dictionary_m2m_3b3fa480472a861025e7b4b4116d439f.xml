@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="x_1300284_raposa_0_raposa_workspace_search_profile_default_spell_check_dictionary">373fa480472a861025e7b4b4116d439c</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="raposa-workspace Search Profile">ca3f2480b82a8610efcd03ac7e42802d</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-28 14:31:05</sys_created_on>
+        <sys_id>3b3fa480472a861025e7b4b4116d439f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1300284_raposa_0_raposa_workspace_search_profile_default_spell_check_dictionary.raposa-workspace Search Profile</sys_name>
+        <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_3b3fa480472a861025e7b4b4116d439f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-28 14:31:05</sys_updated_on>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>
