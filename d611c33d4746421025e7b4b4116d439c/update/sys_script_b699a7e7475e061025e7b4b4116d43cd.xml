@@ -35,7 +35,7 @@
         // Add your code here
         var filme = current.variables.filme;
         var nota = current.variables.sua_nota;
-
+		//refatorar com GlideAggregate
         var grNew = new GlideRecord('sc_req_item');
         grNew.addQuery('cat_item', '55cc75b947d6821025e7b4b4116d43bd');
         grNew.addQuery('stage', 'request_approved');
@@ -76,7 +76,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b699a7e7475e061025e7b4b4116d43cd</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name>Media de filmes</sys_name>
         <sys_overrides/>
         <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
@@ -84,7 +84,7 @@
         <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
         <sys_update_name>sys_script_b699a7e7475e061025e7b4b4116d43cd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-27 20:22:51</sys_updated_on>
+        <sys_updated_on>2024-06-04 18:19:49</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
