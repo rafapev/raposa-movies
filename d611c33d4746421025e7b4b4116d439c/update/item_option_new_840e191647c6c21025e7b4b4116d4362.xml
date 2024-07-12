@@ -21,7 +21,7 @@
         <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>imagem</field>
+        <field/>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -38,7 +38,7 @@
         <macro display_value="Image Poster">97d571ea474e061025e7b4b4116d434f</macro>
         <macroponent/>
         <mandatory>false</mandatory>
-        <map_to_field>true</map_to_field>
+        <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>imagem</name>
@@ -77,14 +77,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-10 21:10:34</sys_created_on>
         <sys_id>840e191647c6c21025e7b4b4116d4362</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>Imagem</sys_name>
         <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
         <sys_update_name>item_option_new_840e191647c6c21025e7b4b4116d4362</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-13 12:22:30</sys_updated_on>
+        <sys_updated_on>2024-07-06 13:08:09</sys_updated_on>
         <table/>
         <tooltip/>
         <type>23</type>

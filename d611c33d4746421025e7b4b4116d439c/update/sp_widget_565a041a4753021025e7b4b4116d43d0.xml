@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function teste($scope, $location, spUtil) {
+  // Get the sys_id parameter from the URL
+  var sysId = $location.search().sys_id;
+
+  // Fetch the movie details using the sys_id
+  if (sysId) {
+    spUtil.get('sp_widget_data', {sys_id: sysId}).then(function(response) {
+      $scope.data.movie = response.data.movie;
+    });
+  }
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.movie-details {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  	
+}
+
+.movie-poster img {
+    max-width: 300px;
+    margin-right: 20px;
+}
+
+.movie-info {
+    max-width: 600px;
+}
+
+.movie-category {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.movie-description h2 {
+    margin-top: 20px;
+  	
+}
+
+.movie-credits p {
+    margin-top: 10px;
+}
+
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>movie_page</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Movie page</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	data.movie = {};
+	//var sysId = input.sys_id;
+	
+    var movieId = $sp.getParameter('sys_id');
+    var gr = new GlideRecord('x_1300284_raposa_0_filmes');
+    if (gr.get(movieId)) {
+		//if (gr.get(sysId)) {
+        data.movie = {
+            title: gr.getValue('titulo'),
+            summary: gr.getValue('sinopse'),
+            imageUrl: gr.getValue('poster'),
+						category: gr.getValue('categoria'),
+					  imdb: gr.getValue('nota_imdb'),
+						raposa: gr.getValue('nota_da_raposa'),
+						ator: []
+					
+        };
+			
+			
+			var diretorGr = new GlideRecord('x_1300284_raposa_0_film_diretor');
+			diretorGr.addEncodedQuery('x_1300284_raposa_0_filmes.sys_id=' + movieId);
+			diretorGr.query();
+			while(diretorGr.next()){
+				data.movie.diretor = {
+					name: diretorGr.getDisplayValue('x_1300284_raposa_0_diretor')
+				};
+				}
+				
+			var atorGr = new GlideRecord('x_1300284_raposa_0_m2m_filmes_atores');
+			atorGr.addEncodedQuery('x_1300284_raposa_0_filmes.sys_id=' + movieId);
+			atorGr.query();
+			//data.movie.ator = [];
+			while(atorGr.next()){
+				data.movie.ator.push({
+					nome: atorGr.getDisplayValue('x_1300284_raposa_0_ator')					
+				});
+				
+			}						
+    }
+	
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-11 18:23:17</sys_created_on>
+        <sys_id>565a041a4753021025e7b4b4116d43d0</sys_id>
+        <sys_mod_count>137</sys_mod_count>
+        <sys_name>Movie page</sys_name>
+        <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
+        <sys_update_name>sp_widget_565a041a4753021025e7b4b4116d43d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-12 22:19:55</sys_updated_on>
+        <template><![CDATA[<!--<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <img ng-src="{{c.data.movie.imageUrl}}" alt="{{c.data.movie.title}}" class="img-responsive" />
+      <h1> {{::data.movie.title}} </h1>
+      <p><strong>Categoria:</strong> {{::data.movie.category}}</p>
+      <p><strong>Nota IMDB:</strong> {{::data.movie.imdb}}</p>
+       <p><strong>Nota Raposa:</strong> {{::data.movie.raposa}}</p>
+      <h2>Sinopse</h2>
+      <p>{{::data.movie.summary}}</p>
+    </div>
+  </div>
+</div> -->
+
+<div class="movie-details" ng-if="!data.error">
+    <div class="movie-poster">
+        <img ng-src="{{c.data.movie.imageUrl}}" alt="{{c.data.movie.title}}" />
+    </div>
+    <div class="movie-info">
+        <h1>{{::data.movie.title}}</h1>
+        <div class="movie-category">
+            <span>{{::data.movie.category}}</span>
+        </div>
+        <div class="movie-description">
+            <h2>Sinopse</h2>
+            <p>{{::data.movie.summary}}</p>
+        </div>
+        <div class="movie-credits">
+            <p><strong>Nota IMDB:</strong> {{::data.movie.imdb}}</p>
+       			<p><strong>Nota Raposa:</strong> {{::data.movie.raposa}}</p>
+          <p><strong>Diretor:</strong> {{::data.movie.diretor.name}}</p>
+          <p><strong>Atores:</strong>
+            <span ng-repeat="ator in ::data.movie.ator">
+              {{::ator.nome}}<span ng-if="!$last">, </span>
+            </span>
+          </p>
+        </div>
+    </div>
+</div>
+<div ng-if="data.error">
+    <p>{{::data.error}}</p>
+</div>
+
+]]></template>
+    </sp_widget>
+</record_update>

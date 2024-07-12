@@ -2,6 +2,7 @@
     <sc_cat_item_producer action="INSERT_OR_UPDATE">
         <access_type>restricted</access_type>
         <active>true</active>
+        <additional_review>false</additional_review>
         <allow_edit>false</allow_edit>
         <availability>on_desktop</availability>
         <billable>false</billable>
@@ -9,6 +10,7 @@
         <category display_value="Services">109f0438c6112276003ae8ac13e7009d</category>
         <checked_out>false</checked_out>
         <cost>0</cost>
+        <create_universal_request>false</create_universal_request>
         <custom_cart/>
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
         <delivery_plan_script/>
@@ -88,22 +90,22 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-09 20:56:29</sys_created_on>
         <sys_id>3c11904a470e421025e7b4b4116d43d9</sys_id>
-        <sys_mod_count>178</sys_mod_count>
+        <sys_mod_count>183</sys_mod_count>
         <sys_name>Cadastro de Filmes</sys_name>
         <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
         <sys_update_name>sc_cat_item_producer_3c11904a470e421025e7b4b4116d43d9</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-05-27 17:53:01</sys_updated_on>
+        <sys_updated_on>2024-07-06 13:08:09</sys_updated_on>
         <table_name>x_1300284_raposa_0_filmes</table_name>
-        <taxonomy_topic/>
+        <taxonomy_topic display_value="Cadastrar Filmes">7c37a98447df021025e7b4b4116d4351</taxonomy_topic>
         <template/>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>176</version>
+        <version>181</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
