@@ -2,7 +2,7 @@
     <sys_ux_applicability_m2m_list action="INSERT_OR_UPDATE">
         <active>true</active>
         <applicability display_value="Audience for app raposa-workspace">0a57bb26472e021025e7b4b4116d4313</applicability>
-        <list display_value="All">8257bb26472e021025e7b4b4116d4362</list>
+        <list display_value="Todos Filmes">8257bb26472e021025e7b4b4116d4362</list>
         <order>100</order>
         <sys_class_name>sys_ux_applicability_m2m_list</sys_class_name>
         <sys_created_by>admin</sys_created_by>

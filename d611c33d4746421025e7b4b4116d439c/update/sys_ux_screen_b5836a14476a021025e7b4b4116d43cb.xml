@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
     <sys_ux_screen action="INSERT_OR_UPDATE">
         <active>true</active>
-        <app_config display_value="Raposa Workspace App Config">063f24801a2a86105e4a8bdd8e697a2e</app_config>
+        <app_config/>
         <description/>
         <disable_auto_reflow>false</disable_auto_reflow>
         <event_mappings/>

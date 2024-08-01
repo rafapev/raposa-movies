@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="dc6ee05347460a1025e7b4b4116d4303" label="m2m_Filmes_Diretors" max_length="40" name="x_1300284_raposa_0_film_diretor" text_index="true" type="collection">
+        <element attributes="encode_utf8=false" display="true" label="Diretors" max_length="32" name="x_1300284_raposa_0_diretor" reference="x_1300284_raposa_0_diretor" type="reference"/>
+        <element attributes="encode_utf8=false" label="Filmes" max_length="32" name="x_1300284_raposa_0_filmes" reference="x_1300284_raposa_0_filmes" type="reference"/>
+        <index name="index">
+            <element name="x_1300284_raposa_0_diretor"/>
+        </index>
+        <index name="index2">
+            <element name="x_1300284_raposa_0_filmes"/>
+        </index>
+    </element>
+</database>

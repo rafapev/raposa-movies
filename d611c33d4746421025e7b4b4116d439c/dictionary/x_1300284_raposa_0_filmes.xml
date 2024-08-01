@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="53d30ffd4746421025e7b4b4116d4388" label="Filmes" max_length="40" name="x_1300284_raposa_0_filmes" text_index="true" type="collection">
+        <element active="false" label="Imagem" max_length="200" name="imagem" type="string"/>
+        <element label="Nota - IMDB" max_length="40" name="nota_imdb" type="string"/>
+        <element label="Categoria" max_length="40" name="categoria" type="string"/>
+        <element label="Poster" max_length="150" name="poster" type="string"/>
+        <element label="Nota da Raposa" max_length="40" name="nota_da_raposa" type="string"/>
+        <element label="Imdb Id" max_length="40" name="imdb_id" type="string"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element display="true" label="Título" max_length="150" name="titulo" type="string"/>
+        <element label="Sinopse" max_length="1000" name="sinopse" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

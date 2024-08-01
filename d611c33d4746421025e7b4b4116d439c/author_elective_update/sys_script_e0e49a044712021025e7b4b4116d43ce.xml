@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1300284_raposa_0_ator</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>m2m ator</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Add your code here
+
+    var grAtor = new GlideRecord('x_1300284_raposa_0_ator');
+    grAtor.addEncodedQuery('sys_created_onONLast minute@javascript:gs.beginningOfLastMinute()@javascript:gs.endOfLastMinute()');
+    grAtor.query();
+
+    gs.info('teste r antes do while ');
+
+    for(var i = 0; i < grAtor.next(); i++) {
+
+        gs.info('teste r depois do while ');
+        var movieGR = new GlideRecord('x_1300284_raposa_0_m2m_filmes_atores');
+        movieGR.initialize();
+        movieGR.x_1300284_raposa_0_ator = grAtor.getUniqueValue;
+        //movieGR.x_1300284_raposa_0_filmes = filme;
+        movieGR.insert();
+    }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-16 11:44:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e0e49a044712021025e7b4b4116d43ce</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_name>m2m ator</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
+        <sys_update_name>sys_script_e0e49a044712021025e7b4b4116d43ce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-16 14:24:48</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=e0e49a044712021025e7b4b4116d43ce"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</application>
+        <file_path/>
+        <instance_id>996eb3b01b5639d839a54089bd4bcb55</instance_id>
+        <instance_name>dev200924</instance_name>
+        <name>sys_script_e0e49a044712021025e7b4b4116d43ce</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_1300284_raposa_0_ator&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;m2m ator&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Add your code here
+
+    var grAtor = new GlideRecord('x_1300284_raposa_0_ator');
+    grAtor.addEncodedQuery('sys_created_onONLast minute@javascript:gs.beginningOfLastMinute()@javascript:gs.endOfLastMinute()');
+    grAtor.query();
+
+    gs.info('teste r antes do while ');
+
+    for(var i = 0; i &lt; grAtor.next(); i++) {
+
+        gs.info('teste r depois do while ');
+        var movieGR = new GlideRecord('x_1300284_raposa_0_m2m_filmes_atores');
+        movieGR.initialize();
+        movieGR.x_1300284_raposa_0_ator = grAtor.getUniqueValue;
+        //movieGR.x_1300284_raposa_0_filmes = filme;
+        movieGR.insert();
+    }
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-16 11:44:56&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e0e49a044712021025e7b4b4116d43ce&lt;/sys_id&gt;&lt;sys_mod_count&gt;34&lt;/sys_mod_count&gt;&lt;sys_name&gt;m2m ator&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0"&gt;d611c33d4746421025e7b4b4116d439c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Raposa Aí Reviews"&gt;d611c33d4746421025e7b4b4116d439c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_e0e49a044712021025e7b4b4116d43ce&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-16 14:24:48&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=e0e49a044712021025e7b4b4116d43ce"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-25824706</payload_hash>
+        <record_name>m2m ator</record_name>
+        <reverted_from/>
+        <source>9611073d4746421025e7b4b4116d4342</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-16 14:24:48</sys_created_on>
+        <sys_id>cbbaf2c847d2021025e7b4b4116d43cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f81ca96f50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-16 14:24:48</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>cfbaf2c83ad202105fb62da35afd22ce</update_guid>
+        <update_guid_history>cfbaf2c83ad202105fb62da35afd22ce:-25824706,c659fe48b6d2021066481ef931a18752:-203882651,b6c8fa0897d202105bf730327e7a1503:1469373889,a90836c4bcd20210650f6b2e23129765:-2141996239,b3277e841ad202109121148c182e4128:1226378306,dc27f2c41ed20210d698dcbb968c169a:-815373472,5376b644d0d20210a5b8fb29bd582fdf:1384840296,48b5ba04dcd202104c065e8fc3ef31bb:885756833,b215fac09bd202105d91d398c8a6c5d0:1303467575,70e2f60095d202103926e09b2216ae29:-1506110388,44a13a8c8992021082cc773af077552a:-335729458,5721f24c079202101fae9cd559df5a98:-1270756089,a330360cec920210cd133542507e40fd:-994185127,04bf6ac87992021033192aa74d71e6eb:1327777409,f02f2a8829920210ecadd93951bd8888:109396322,83be624801920210e2e47c9019fb800a:972523140,704de2c4e9920210b16135212a8247d7:2142001564,2a8b22443e92021065df40b1cd51ebc1:1452381231,dbdaa6802692021026dde67cb743f97e:1014585549,5cb82e4018920210dc02ac785606d935:669927970,bfa76200eb920210abe30142658c8d24:1176908028,89b66e4ce4520210b781258494c1c005:332377876,5494e688db520210d7504db85e5dfab1:-1230492409,d864e6c8fd5202109c73c11045572371:976910440,b753628884520210b2d91f100fb5db18:-1918707059,3ba2aa08f15202101b8b4f763cf78461:-1881937184,0a11ae44fe5202103e208665e41a6a2e:1527947614,8450a24440520210996de9d26011293d:-835756969,92bf9ac0345202102ddfff54bd118be9:1886362752,6a5f120475520210443a7cc980b26b0b:1529272783,77aed680c7520210bd98286c78f167ae:1771774342,e40ed6009f520210ae90e30672207097:417042688,9dbc5ec80f1202101a3f8916d57aac1d:-833224695,03f7528813120210f1bb05203a6d2dfc:-1167692789,59265e849e120210e0b9859297e98f95:-784345435</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-16 14:28:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>0bf793cb94fb4c648d2f372422879c64</sys_id>
+        <sys_metadata>e0e49a044712021025e7b4b4116d43ce</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>m2m ator</sys_name>
+        <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
+        <sys_parent display_value="Ator">5059b26b478e021025e7b4b4116d4336</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
+        <sys_scope_delete display_value="">0992b7bd6689427480b1325207dd0d24</sys_scope_delete>
+        <sys_update_name>sys_script_e0e49a044712021025e7b4b4116d43ce</sys_update_name>
+        <sys_update_version display_value="sys_script_e0e49a044712021025e7b4b4116d43ce">cbbaf2c847d2021025e7b4b4116d43cf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-16 14:28:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

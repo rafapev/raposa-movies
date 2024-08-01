@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="List">4bc514fa47ae021025e7b4b4116d4308</macroponent>
+        <name>Refresh List</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[function handler({
+      api,
+      event: {
+          payload,
+          payload: {
+              name,
+              value,
+              previousValue
+          }
+      },
+      helpers,
+      imports
+    }) {
+      if (name === 'screen' &&
+          value.isActive != previousValue.isActive
+          && value.isActive
+          && api.state.hasRecordChanges) {
+          api.setState('hasRecordChanges', false);
+          api.setState('listRefresh', { timestamp: Date.now(), background: true });
+      }
+      if (name === 'activityLogs' && value && value.size > 0) {
+        const operationList = ['modified', 'updated', 'inserted', 'deleted', 'closed'];
+        // Transform "value" and get the latest entry
+        const map = Array.from(value).pop()[1];
+        const crudActivitiesLen = map.activities.get('crud').length;
+        if (crudActivitiesLen < 1)
+            return;
+        const {
+            operation,
+            sysId,
+            timestamp
+        } = map.activities.get('crud')[crudActivitiesLen - 1];
+        if (operationList.includes(operation) &&
+            sysId !== "-1" &&
+            !api.context.props.screen.isActive &&
+            !api.state.hasRecordChanges) {
+            api.setState('hasRecordChanges', true);
+        }
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 01:43:12</sys_created_on>
+        <sys_id>57c510be47ae021025e7b4b4116d4342</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Refresh List</sys_name>
+        <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
+        <sys_update_name>sys_ux_client_script_57c510be47ae021025e7b4b4116d4342</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 01:43:12</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</application>
+        <file_path/>
+        <instance_id>996eb3b01b5639d839a54089bd4bcb55</instance_id>
+        <instance_name>dev200924</instance_name>
+        <name>sys_ux_client_script_57c510be47ae021025e7b4b4116d4342</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="List"&gt;4bc514fa47ae021025e7b4b4116d4308&lt;/macroponent&gt;&lt;name&gt;Refresh List&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[
+    
+]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[function handler({
+      api,
+      event: {
+          payload,
+          payload: {
+              name,
+              value,
+              previousValue
+          }
+      },
+      helpers,
+      imports
+    }) {
+      if (name === 'screen' &amp;&amp;
+          value.isActive != previousValue.isActive
+          &amp;&amp; value.isActive
+          &amp;&amp; api.state.hasRecordChanges) {
+          api.setState('hasRecordChanges', false);
+          api.setState('listRefresh', { timestamp: Date.now(), background: true });
+      }
+      if (name === 'activityLogs' &amp;&amp; value &amp;&amp; value.size &gt; 0) {
+        const operationList = ['modified', 'updated', 'inserted', 'deleted', 'closed'];
+        // Transform "value" and get the latest entry
+        const map = Array.from(value).pop()[1];
+        const crudActivitiesLen = map.activities.get('crud').length;
+        if (crudActivitiesLen &lt; 1)
+            return;
+        const {
+            operation,
+            sysId,
+            timestamp
+        } = map.activities.get('crud')[crudActivitiesLen - 1];
+        if (operationList.includes(operation) &amp;&amp;
+            sysId !== "-1" &amp;&amp;
+            !api.context.props.screen.isActive &amp;&amp;
+            !api.state.hasRecordChanges) {
+            api.setState('hasRecordChanges', true);
+        }
+    }
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-06 01:43:12&lt;/sys_created_on&gt;&lt;sys_id&gt;57c510be47ae021025e7b4b4116d4342&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Refresh List&lt;/sys_name&gt;&lt;sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0"&gt;d611c33d4746421025e7b4b4116d439c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Raposa Aí Reviews"&gt;d611c33d4746421025e7b4b4116d439c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_57c510be47ae021025e7b4b4116d4342&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-06 01:43:12&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1246066995</payload_hash>
+        <record_name>Refresh List</record_name>
+        <reverted_from/>
+        <source>73e45c8c47a2861025e7b4b4116d4303</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 01:43:12</sys_created_on>
+        <sys_id>13c510be47ae021025e7b4b4116d4344</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18feb36dd120000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 01:43:12</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>17c510be3eae0210290da11fd245a843</update_guid>
+        <update_guid_history>17c510be3eae0210290da11fd245a843:-1246066995</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 01:45:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>2917f434d68a484796e97cc27c6c89c1</sys_id>
+        <sys_metadata>57c510be47ae021025e7b4b4116d4342</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Refresh List</sys_name>
+        <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
+        <sys_scope_delete display_value="">0992b7bd6689427480b1325207dd0d24</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_57c510be47ae021025e7b4b4116d4342</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_57c510be47ae021025e7b4b4116d4342">13c510be47ae021025e7b4b4116d4344</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 01:45:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

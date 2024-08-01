@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>labelCacheCleanUpExecuted=true</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Aprovar avaliação de filmes</description>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>filme_approvers</internal_name>
+        <label_cache>[{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"72828d3d-f1f9-494c-a70d-b5646b6f685a":["condition"]},"attributes":null},{"name":"Service Catalog_1.table_name","label":"Trigger - Service Catalog➛Table Name","reference":"","reference_display":"","type":"table_name","base_type":"table_name","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"4474c196-51a6-4578-8939-aee2be3cfc50":["condition"]},"attributes":null}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Filme Approvers</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-22 18:40:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>49be2a4e47d6021025e7b4b4116d43ea</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Filme Approvers</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
+        <sys_update_name>sys_hub_flow_49be2a4e47d6021025e7b4b4116d43ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-22 19:00:43</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=49be2a4e47d6021025e7b4b4116d43ea"/>
+    <sys_variable_value action="DELETE" query="document_key=49be2a4e47d6021025e7b4b4116d43ea"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=49be2a4e47d6021025e7b4b4116d43ea^sys_idNOT INe62f66ce47d6021025e7b4b4116d43c2"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Filme Approvers">49be2a4e47d6021025e7b4b4116d43ea</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-22 18:42:07</sys_created_on>
+        <sys_id>e62f66ce47d6021025e7b4b4116d43c2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-22 18:49:13</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=e62f66ce47d6021025e7b4b4116d43c2"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=49be2a4e47d6021025e7b4b4116d43ea"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=49be2a4e47d6021025e7b4b4116d43ea^sys_idNOT INc1be2a4e47d6021025e7b4b4116d43eb"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>49be2a4e47d6021025e7b4b4116d43ea</id>
+        <name>Filme Approvers</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-22 18:40:06</sys_created_on>
+        <sys_id>c1be2a4e47d6021025e7b4b4116d43eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-22 18:40:06</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=c1be2a4e47d6021025e7b4b4116d43eb"/>
+    <sys_hub_flow_input action="DELETE" query="model=49be2a4e47d6021025e7b4b4116d43ea"/>
+    <sys_hub_flow_output action="DELETE" query="model=49be2a4e47d6021025e7b4b4116d43ea"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=49be2a4e47d6021025e7b4b4116d43ea"/>
+    <sys_hub_action_instance action="DELETE" query="flow=49be2a4e47d6021025e7b4b4116d43ea"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=49be2a4e47d6021025e7b4b4116d43ea"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=49be2a4e47d6021025e7b4b4116d43ea"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=49be2a4e47d6021025e7b4b4116d43ea"/>
+    <sys_hub_flow_variable action="DELETE" query="model=49be2a4e47d6021025e7b4b4116d43ea"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_49be2a4e47d6021025e7b4b4116d43ea"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_49be2a4e47d6021025e7b4b4116d43ea"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_49be2a4e47d6021025e7b4b4116d43ea"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_49be2a4e47d6021025e7b4b4116d43ea"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=49be2a4e47d6021025e7b4b4116d43ea"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=49be2a4e47d6021025e7b4b4116d43ea"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</application>
+        <file_path/>
+        <instance_id>996eb3b01b5639d839a54089bd4bcb55</instance_id>
+        <instance_name>dev200924</instance_name>
+        <name>sys_hub_flow_49be2a4e47d6021025e7b4b4116d43ea</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><attributes>labelCacheCleanUpExecuted=true</attributes><authored_on_release_version>25000</authored_on_release_version><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from/><copied_from_name/><description>Aprovar avaliação de filmes</description><flow_priority>MEDIUM</flow_priority><generation_source/><internal_name>filme_approvers</internal_name><label_cache>[{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"72828d3d-f1f9-494c-a70d-b5646b6f685a":["condition"]},"attributes":null},{"name":"Service Catalog_1.table_name","label":"Trigger - Service Catalog➛Table Name","reference":"","reference_display":"","type":"table_name","base_type":"table_name","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"4474c196-51a6-4578-8939-aee2be3cfc50":["condition"]},"attributes":null}]</label_cache><latest_snapshot/><master_snapshot/><name>Filme Approvers</name><natlang/><outputs/><pre_compiled>false</pre_compiled><remote_trigger_id/><run_as>user</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-22 18:40:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>49be2a4e47d6021025e7b4b4116d43ea</sys_id><sys_mod_count>12</sys_mod_count><sys_name>Filme Approvers</sys_name><sys_overrides/><sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package><sys_policy/><sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope><sys_update_name>sys_hub_flow_49be2a4e47d6021025e7b4b4116d43ea</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-22 19:00:43</sys_updated_on><type>flow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=49be2a4e47d6021025e7b4b4116d43ea"/><sys_variable_value action="delete_multiple" query="document_key=49be2a4e47d6021025e7b4b4116d43ea"/><sys_hub_trigger_instance action="delete_multiple" query="flow=49be2a4e47d6021025e7b4b4116d43ea^sys_idNOT INe62f66ce47d6021025e7b4b4116d43c2"/><sys_hub_trigger_instance action="INSERT_OR_UPDATE"><comment/><display_text/><flow display_value="Filme Approvers">49be2a4e47d6021025e7b4b4116d43ea</flow><name>Service Catalog</name><remote_sys_id/><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-22 18:42:07</sys_created_on><sys_id>e62f66ce47d6021025e7b4b4116d43c2</sys_id><sys_mod_count>3</sys_mod_count><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-22 18:49:13</sys_updated_on><trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition><trigger_inputs/><trigger_outputs/><trigger_type>service_catalog</trigger_type></sys_hub_trigger_instance><sys_variable_value action="delete_multiple" query="document_key=e62f66ce47d6021025e7b4b4116d43c2"/><sys_hub_flow_stage action="delete_multiple" query="flow=49be2a4e47d6021025e7b4b4116d43ea"/><sys_flow_cat_variable_model action="delete_multiple" query="id=49be2a4e47d6021025e7b4b4116d43ea^sys_idNOT INc1be2a4e47d6021025e7b4b4116d43eb"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>49be2a4e47d6021025e7b4b4116d43ea</id><name>Filme Approvers</name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-22 18:40:06</sys_created_on><sys_id>c1be2a4e47d6021025e7b4b4116d43eb</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-22 18:40:06</sys_updated_on></sys_flow_cat_variable_model><sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=c1be2a4e47d6021025e7b4b4116d43eb"/><sys_hub_flow_input action="delete_multiple" query="model=49be2a4e47d6021025e7b4b4116d43ea"/><sys_hub_flow_output action="delete_multiple" query="model=49be2a4e47d6021025e7b4b4116d43ea"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=49be2a4e47d6021025e7b4b4116d43ea"/><sys_hub_action_instance action="delete_multiple" query="flow=49be2a4e47d6021025e7b4b4116d43ea"/><sys_hub_sub_flow_instance action="delete_multiple" query="flow=49be2a4e47d6021025e7b4b4116d43ea"/><sys_hub_flow_logic action="delete_multiple" query="flow=49be2a4e47d6021025e7b4b4116d43ea"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=49be2a4e47d6021025e7b4b4116d43ea"/><sys_hub_flow_variable action="delete_multiple" query="model=49be2a4e47d6021025e7b4b4116d43ea"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_49be2a4e47d6021025e7b4b4116d43ea"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_49be2a4e47d6021025e7b4b4116d43ea"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_49be2a4e47d6021025e7b4b4116d43ea"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_49be2a4e47d6021025e7b4b4116d43ea"/><sys_flow_trigger_plan action="delete_multiple" query="plan_id=49be2a4e47d6021025e7b4b4116d43ea"/><sys_flow_subflow_plan action="delete_multiple" query="plan_id=49be2a4e47d6021025e7b4b4116d43ea"/></record_update>]]></payload>
+        <payload_hash>-1224252751</payload_hash>
+        <record_name>Filme Approvers</record_name>
+        <reverted_from/>
+        <source>072cd2c24796021025e7b4b4116d4386</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-22 19:00:43</sys_created_on>
+        <sys_id>0f63ba06471a021025e7b4b4116d4399</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18fa1ad5ad00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-22 19:00:43</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>c363ba06c51a021080fe581e5dddcc99</update_guid>
+        <update_guid_history>c363ba06c51a021080fe581e5dddcc99:-1224252751,f7113e42051a0210ec13e865d97950c3:-641736496,25907242f01a021053ec45e02b5a0097:-1163460043,0eff66020b1a0210cf0b0a21c706e89d:758890279,1c4fe6cec0d60210580403b4f4c50351:1201861969,97de6e8e0ad60210e5ca04e10d2efb85:1765489955,09be2a4ec5d60210f2ce60a4e2fb3aef:2011192372</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-22 19:00:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>42219cef7ac84ab091d945733b110529</sys_id>
+        <sys_metadata>49be2a4e47d6021025e7b4b4116d43ea</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Filme Approvers</sys_name>
+        <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
+        <sys_scope_delete display_value="">0992b7bd6689427480b1325207dd0d24</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_49be2a4e47d6021025e7b4b4116d43ea</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_49be2a4e47d6021025e7b4b4116d43ea">0f63ba06471a021025e7b4b4116d4399</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-22 19:00:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

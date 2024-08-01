@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Cadastro de Filmes">3c11904a470e421025e7b4b4116d43d9</cat_item>
+        <cat_variable/>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Diretor</name>
+        <order/>
+        <published_ref/>
+        <script><![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+   var ga = new GlideAjax('x_1300284_raposa_0.Filme');
+    ga.addParam('sysparm_name', 'searchFilme');
+    ga.addParam('sysparm_filme', 'titanic');
+    ga.getXML(callback);
+
+    function callback(response) {
+        var answer = response.responseXML.documentElement.getAttribute("answer");
+        var data = JSON.parse(answer);
+
+	var nomeDiretor = data.Director;  
+   
+	var gaDiretor = new GlideAjax('x_1300284_raposa_0.Filme');
+	gaDiretor.addParam('sysparm_name', 'criarDiretor');
+	gaDiretor.addParam('nomeDiretor', nomeDiretor);
+	}
+	return true;
+   
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-14 16:13:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c15f7ceb4706021025e7b4b4116d4335</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Diretor</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
+        <sys_update_name>catalog_script_client_c15f7ceb4706021025e7b4b4116d4335</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-14 17:59:23</sys_updated_on>
+        <table/>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <va_supported>true</va_supported>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</application>
+        <file_path/>
+        <instance_id>996eb3b01b5639d839a54089bd4bcb55</instance_id>
+        <instance_name>dev200924</instance_name>
+        <name>catalog_script_client_c15f7ceb4706021025e7b4b4116d4335</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Cadastro de Filmes"&gt;3c11904a470e421025e7b4b4116d43d9&lt;/cat_item&gt;&lt;cat_variable/&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Diretor&lt;/name&gt;&lt;order/&gt;&lt;published_ref/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+   var ga = new GlideAjax('x_1300284_raposa_0.Filme');
+    ga.addParam('sysparm_name', 'searchFilme');
+    ga.addParam('sysparm_filme', 'titanic');
+    ga.getXML(callback);
+
+    function callback(response) {
+        var answer = response.responseXML.documentElement.getAttribute("answer");
+        var data = JSON.parse(answer);
+
+	var nomeDiretor = data.Director;  
+   
+	var gaDiretor = new GlideAjax('x_1300284_raposa_0.Filme');
+	gaDiretor.addParam('sysparm_name', 'criarDiretor');
+	gaDiretor.addParam('nomeDiretor', nomeDiretor);
+	}
+	return true;
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-14 16:13:04&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c15f7ceb4706021025e7b4b4116d4335&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name&gt;Diretor&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0"&gt;d611c33d4746421025e7b4b4116d439c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Raposa Aí Reviews"&gt;d611c33d4746421025e7b4b4116d439c&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_c15f7ceb4706021025e7b4b4116d4335&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-14 17:59:23&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;va_supported&gt;true&lt;/va_supported&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1278328379</payload_hash>
+        <record_name>Diretor</record_name>
+        <reverted_from/>
+        <source>9611073d4746421025e7b4b4116d4342</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-14 17:59:23</sys_created_on>
+        <sys_id>baa851eb4786021025e7b4b4116d43fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f784253de0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-14 17:59:23</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>72a851ebb9860210aaf1366316f0bcfc</update_guid>
+        <update_guid_history>72a851ebb9860210aaf1366316f0bcfc:1278328379,ec25d56b0286021004b43dc53631fc45:1730324520,4d64152b5f86021065cbebe11cbe813f:1468370505,ce6391a766860210cc736fd9141866bf:2049797411,cd3119e3ab860210fc8f95a42478c659:-1164317194,0dbf8563568602102d3c8ed2211dc50f:865803300,f5ae8def76460210818dc83b8da9b26f:-1656745245,c6bc4d2fbc46021057d2798da795d265:-1160394800,54f8852b4a460210c40800c79ad14940:1403115556,daf78da71646021080e66e494c9ba7d9:-1693557520,1d5045a73c060210d7510442870ad1a3:227230106</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Diretor">e3f959ef4786021025e7b4b4116d43f8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-14 18:05:11</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>0064f4db93a7425480aecb0a3edb2290</sys_id>
+        <sys_metadata>c15f7ceb4706021025e7b4b4116d4335</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Diretor</sys_name>
+        <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
+        <sys_scope_delete display_value="">0992b7bd6689427480b1325207dd0d24</sys_scope_delete>
+        <sys_update_name>catalog_script_client_c15f7ceb4706021025e7b4b4116d4335</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_c15f7ceb4706021025e7b4b4116d4335">baa851eb4786021025e7b4b4116d43fc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-14 18:05:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

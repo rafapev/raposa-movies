@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Advanced Dashboards">02dc36706f01011089060168e25b3691</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Filmes</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="UXR Base Experience Shell - Advanced">47bcb58553030110aab9ddeeff7b12c2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>filmes60042044</route_type>
+        <screen_type display_value="Filmes">4580b3ea47ea021025e7b4b4116d4355</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-05 23:00:18</sys_created_on>
+        <sys_id>d980b3ea47ea021025e7b4b4116d4363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Filmes</sys_name>
+        <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
+        <sys_update_name>sys_ux_app_route_d980b3ea47ea021025e7b4b4116d4363</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-05 23:00:18</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=d980b3ea47ea021025e7b4b4116d4363"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</application>
+        <file_path/>
+        <instance_id>996eb3b01b5639d839a54089bd4bcb55</instance_id>
+        <instance_name>dev200924</instance_name>
+        <name>sys_ux_app_route_d980b3ea47ea021025e7b4b4116d4363</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="Advanced Dashboards">02dc36706f01011089060168e25b3691</app_config><description/><extension_point/><fields/><icon/><name>Filmes</name><optional_parameters/><order>0</order><parent_macroponent display_value="UXR Base Experience Shell - Advanced">47bcb58553030110aab9ddeeff7b12c2</parent_macroponent><parent_macroponent_composition_element_id/><route_type>filmes60042044</route_type><screen_type display_value="Filmes">4580b3ea47ea021025e7b4b4116d4355</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-05 23:00:18</sys_created_on><sys_id>d980b3ea47ea021025e7b4b4116d4363</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Filmes</sys_name><sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package><sys_policy/><sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope><sys_update_name>sys_ux_app_route_d980b3ea47ea021025e7b4b4116d4363</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-05 23:00:18</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=d980b3ea47ea021025e7b4b4116d4363"/></record_update>]]></payload>
+        <payload_hash>1082635136</payload_hash>
+        <record_name>Filmes</record_name>
+        <reverted_from/>
+        <source>73e45c8c47a2861025e7b4b4116d4303</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-05 23:00:18</sys_created_on>
+        <sys_id>d180b3ea47ea021025e7b4b4116d4366</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18feaa1bae50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-05 23:00:18</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>9580b3eadeea02108b5808e64d051765</update_guid>
+        <update_guid_history>9580b3eadeea02108b5808e64d051765:1082635136</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-05 23:01:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>0f55b90cf383487282f9cb5d2f26e744</sys_id>
+        <sys_metadata>d980b3ea47ea021025e7b4b4116d4363</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Filmes</sys_name>
+        <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
+        <sys_scope_delete display_value="">0992b7bd6689427480b1325207dd0d24</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_d980b3ea47ea021025e7b4b4116d4363</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_d980b3ea47ea021025e7b4b4116d4363">d180b3ea47ea021025e7b4b4116d4366</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-05 23:01:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

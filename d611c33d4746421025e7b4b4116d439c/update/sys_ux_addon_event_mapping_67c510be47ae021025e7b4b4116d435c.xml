@@ -4,7 +4,7 @@
         <controller/>
         <description/>
         <name>Open Change Page</name>
-        <parent_macroponent display_value="List">4bc514fa47ae021025e7b4b4116d4308</parent_macroponent>
+        <parent_macroponent/>
         <source_component/>
         <source_da display_value="create-new-uxf">08ef66b377531110b4e6aeb4bb5a997b</source_da>
         <source_element_id>list</source_element_id>

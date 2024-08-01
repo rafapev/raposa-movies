@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-15 01:01:45</sys_created_on>
+        <sys_id>e959b26b478e021025e7b4b4116d43e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1300284_raposa_0_ator.x_1300284_raposa_0.user</sys_name>
+        <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
+        <sys_security_acl display_value="x_1300284_raposa_0_ator">2159b26b478e021025e7b4b4116d43e2</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_e959b26b478e021025e7b4b4116d43e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-15 01:01:45</sys_updated_on>
+        <sys_user_role display_value="x_1300284_raposa_0.user" name="x_1300284_raposa_0.user">9e11073d4746421025e7b4b4116d434d</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</application>
+        <file_path/>
+        <instance_id>996eb3b01b5639d839a54089bd4bcb55</instance_id>
+        <instance_name>dev200924</instance_name>
+        <name>sys_security_acl_role_e959b26b478e021025e7b4b4116d43e6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-15 01:01:45</sys_created_on><sys_id>e959b26b478e021025e7b4b4116d43e6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1300284_raposa_0_ator.x_1300284_raposa_0.user</sys_name><sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package><sys_policy/><sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope><sys_security_acl display_value="x_1300284_raposa_0_ator">2159b26b478e021025e7b4b4116d43e2</sys_security_acl><sys_update_name>sys_security_acl_role_e959b26b478e021025e7b4b4116d43e6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-15 01:01:45</sys_updated_on><sys_user_role display_value="x_1300284_raposa_0.user" name="x_1300284_raposa_0.user">9e11073d4746421025e7b4b4116d434d</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>829474984</payload_hash>
+        <record_name>x_1300284_raposa_0_ator.x_1300284_raposa_0.user</record_name>
+        <reverted_from/>
+        <source>9611073d4746421025e7b4b4116d4342</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-15 01:01:45</sys_created_on>
+        <sys_id>e959f26b478e021025e7b4b4116d43b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f79c501990000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-15 01:01:45</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>ed59f26b0b8e0210bba9438e9ffc14b0</update_guid>
+        <update_guid_history>ed59f26b0b8e0210bba9438e9ffc14b0:829474984</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1300284_raposa_0_ator.x_1300284_raposa_0.user">be9b15314756821025e7b4b4116d436b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-21 17:58:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>7754a006f6f74788871dac2cc676e410</sys_id>
+        <sys_metadata>e959b26b478e021025e7b4b4116d43e6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1300284_raposa_0_ator.x_1300284_raposa_0.user</sys_name>
+        <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
+        <sys_parent display_value="x_1300284_raposa_0_ator">2159b26b478e021025e7b4b4116d43e2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
+        <sys_scope_delete display_value="">0992b7bd6689427480b1325207dd0d24</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_e959b26b478e021025e7b4b4116d43e6</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_e959b26b478e021025e7b4b4116d43e6">e959f26b478e021025e7b4b4116d43b1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-21 17:58:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

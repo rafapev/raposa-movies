@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list">
+    <sys_ux_applicability_m2m_list action="DELETE">
+        <active>true</active>
+        <applicability display_value="Audience for app raposa-workspace">4f3f6480472a861025e7b4b4116d4385</applicability>
+        <list/>
+        <order>100</order>
+        <sys_class_name>sys_ux_applicability_m2m_list</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-28 14:31:02</sys_created_on>
+        <sys_id>d73f6480472a861025e7b4b4116d43ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_list_d73f6480472a861025e7b4b4116d43ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-28 14:31:02</sys_updated_on>
+    </sys_ux_applicability_m2m_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</application>
+        <file_path/>
+        <instance_id>996eb3b01b5639d839a54089bd4bcb55</instance_id>
+        <instance_name>dev200924</instance_name>
+        <name>sys_ux_applicability_m2m_list_d73f6480472a861025e7b4b4116d43ea</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list"><sys_ux_applicability_m2m_list action="INSERT_OR_UPDATE"><active>true</active><applicability display_value="Audience for app raposa-workspace">4f3f6480472a861025e7b4b4116d4385</applicability><list/><order>100</order><sys_class_name>sys_ux_applicability_m2m_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-28 14:31:02</sys_created_on><sys_id>d73f6480472a861025e7b4b4116d43ea</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package><sys_policy/><sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope><sys_update_name>sys_ux_applicability_m2m_list_d73f6480472a861025e7b4b4116d43ea</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-28 14:31:02</sys_updated_on></sys_ux_applicability_m2m_list></record_update>]]></payload>
+        <payload_hash>1999021649</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>73e45c8c47a2861025e7b4b4116d4303</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-05 23:28:46</sys_created_on>
+        <sys_id>4207bfe2472e021025e7b4b4116d43bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18feabbca110000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-05 23:28:46</sys_updated_on>
+        <type>List Applicability</type>
+        <update_guid>173f6480e32a86109d3340d77a5b3eec</update_guid>
+        <update_guid_history>173f6480e32a86109d3340d77a5b3eec:1351816848,173f6480e32a86109d3340d77a5b3eec:1351816848</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-05 23:28:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_applicability_m2m_list">sys_ux_applicability_m2m_list</sys_db_object>
+        <sys_id>0f78f93462ba409281d9a590c1844144</sys_id>
+        <sys_metadata>d73f6480472a861025e7b4b4116d43ea</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
+        <sys_scope_delete display_value="">0992b7bd6689427480b1325207dd0d24</sys_scope_delete>
+        <sys_update_name>sys_ux_applicability_m2m_list_d73f6480472a861025e7b4b4116d43ea</sys_update_name>
+        <sys_update_version display_value="sys_ux_applicability_m2m_list_d73f6480472a861025e7b4b4116d43ea">4207bfe2472e021025e7b4b4116d43bb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-05 23:28:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

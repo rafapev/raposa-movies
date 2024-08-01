@@ -7,7 +7,7 @@
         <event_mappings>[
     
 ]</event_mappings>
-        <macroponent display_value="m2m_Filmes_Ators">b657fb26472e021025e7b4b4116d4348</macroponent>
+        <macroponent display_value="m2m_Filmes_Ators Record Page">b657fb26472e021025e7b4b4116d4348</macroponent>
         <macroponent_config>{
     "bare": {
         "type": "JSON_LITERAL",

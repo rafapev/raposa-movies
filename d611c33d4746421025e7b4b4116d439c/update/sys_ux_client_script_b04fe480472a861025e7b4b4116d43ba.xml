@@ -2,7 +2,7 @@
     <sys_ux_client_script action="INSERT_OR_UPDATE">
         <controller_preset/>
         <includes/>
-        <macroponent display_value="Ator">684fe480472a861025e7b4b4116d43b7</macroponent>
+        <macroponent display_value="Ator Record Page">684fe480472a861025e7b4b4116d43b7</macroponent>
         <name>viewport_gph/initiallyCollapsed</name>
         <preset/>
         <required_translations/>

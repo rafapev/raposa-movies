@@ -31,12 +31,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-24 20:23:32</sys_created_on>
         <sys_id>3b8951324796021025e7b4b4116d43a2</sys_id>
-        <sys_mod_count>101</sys_mod_count>
+        <sys_mod_count>102</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-24 20:32:41</sys_updated_on>
+        <sys_updated_on>2024-05-24 20:33:13</sys_updated_on>
         <table>sc_req_item</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="Filme Administradores">ca8651fa4756021025e7b4b4116d4306</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">

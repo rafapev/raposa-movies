@@ -2,7 +2,7 @@
     <sys_ux_client_script action="INSERT_OR_UPDATE">
         <controller_preset/>
         <includes/>
-        <macroponent display_value="m2m_Filmes_Ators">b657fb26472e021025e7b4b4116d4348</macroponent>
+        <macroponent display_value="m2m_Filmes_Ators Record Page">b657fb26472e021025e7b4b4116d4348</macroponent>
         <name>viewport_gph/initiallyCollapsed</name>
         <preset/>
         <required_translations/>

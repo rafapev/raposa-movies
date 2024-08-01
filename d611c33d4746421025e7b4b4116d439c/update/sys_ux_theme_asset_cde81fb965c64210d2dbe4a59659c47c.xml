@@ -27,15 +27,15 @@
         <hash>3adf8faeb55a761e53bd75370f757907171b0f9e7305c8663dcddcc8a297871c</hash>
         <image_height/>
         <image_width/>
-        <size_bytes>9149</size_bytes>
+        <size_bytes>0</size_bytes>
         <size_compressed>9023</size_compressed>
-        <state>available_conditionally</state>
+        <state>available</state>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2024-05-09 16:50:16</sys_created_on>
         <sys_id>81e81fb9c7c6421071fa0719430d3a7d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-05-09 16:50:16</sys_updated_on>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2024-05-09 16:50:54</sys_updated_on>
         <table_name>sys_ux_theme_asset</table_name>
         <table_sys_id>cde81fb965c64210d2dbe4a59659c47c</table_sys_id>
     </sys_attachment>

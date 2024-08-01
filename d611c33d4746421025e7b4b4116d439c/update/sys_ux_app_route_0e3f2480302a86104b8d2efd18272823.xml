@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
     <sys_ux_app_route action="INSERT_OR_UPDATE">
-        <app_config display_value="Raposa Workspace App Config">063f24801a2a86105e4a8bdd8e697a2e</app_config>
+        <app_config/>
         <description/>
         <extension_point/>
         <fields>table,sysId</fields>

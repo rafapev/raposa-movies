@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1300284_raposa_0_ator</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Registro de atores</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Add your code here
+    var arrayAtor = current.ator;
+
+    if (!arrayAtor) {
+        return;
+    }
+
+    var ator = arrayAtor.split(',');
+
+    for (var i = 0; i < ator.length; i++) {
+        var item = ator[i].trim();
+
+        var existingRecord = new GlideRecord('x_1300284_raposa_0_ator');
+        existingRecord.addQuery('ator', item);
+        existingRecord.query();
+
+        if (!existingRecord.next()) {
+            var newRecord = new GlideRecord('x_1300284_raposa_0_ator');
+            newRecord.initialize();
+            newRecord.ator = item;
+            newRecord.insert();
+        }
+    }
+    current.setAbortAction(true);
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-15 01:31:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>272cb66f478e021025e7b4b4116d439c</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Registro de atores</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
+        <sys_update_name>sys_script_272cb66f478e021025e7b4b4116d439c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-21 11:25:58</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=272cb66f478e021025e7b4b4116d439c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</application>
+        <file_path/>
+        <instance_id>996eb3b01b5639d839a54089bd4bcb55</instance_id>
+        <instance_name>dev200924</instance_name>
+        <name>sys_script_272cb66f478e021025e7b4b4116d439c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_1300284_raposa_0_ator&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Registro de atores&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Add your code here
+    var arrayAtor = current.ator;
+
+    if (!arrayAtor) {
+        return;
+    }
+
+    var ator = arrayAtor.split(',');
+
+    for (var i = 0; i &lt; ator.length; i++) {
+        var item = ator[i].trim();
+
+        var existingRecord = new GlideRecord('x_1300284_raposa_0_ator');
+        existingRecord.addQuery('ator', item);
+        existingRecord.query();
+
+        if (!existingRecord.next()) {
+            var newRecord = new GlideRecord('x_1300284_raposa_0_ator');
+            newRecord.initialize();
+            newRecord.ator = item;
+            newRecord.insert();
+        }
+    }
+    current.setAbortAction(true);
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-15 01:31:08&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;272cb66f478e021025e7b4b4116d439c&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;Registro de atores&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0"&gt;d611c33d4746421025e7b4b4116d439c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Raposa Aí Reviews"&gt;d611c33d4746421025e7b4b4116d439c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_272cb66f478e021025e7b4b4116d439c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-21 11:25:58&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=272cb66f478e021025e7b4b4116d439c"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>13652068</payload_hash>
+        <record_name>Registro de atores</record_name>
+        <reverted_from/>
+        <source>9611073d4746421025e7b4b4116d4342</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-21 11:25:58</sys_created_on>
+        <sys_id>58c18cf9479a421025e7b4b4116d4328</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f9ae6a94e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-21 11:25:58</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>5cc18cf9389a4210c1de463ac0e22b27</update_guid>
+        <update_guid_history>5cc18cf9389a4210c1de463ac0e22b27:13652068,085f386543da02108fb6c9705a0fa8f9:-823805035,62af2ced025a02100d8e4d39b9e19290:13652068,d77ea0adb85a0210dc9264b006493e82:-823805035,55b478ecb852821022a056af5cc6a6b1:13652068,327c593be3420210bfd03f6b40835e60:-823805035,25a453af16024210d0ba5418faf892f7:-164242863,570313eb2d02421082732dbfcb154c91:292338220,fb70d36724024210593161f31209113b:-1291323342,8810c3a3f6ce021019d952b945ee42bd:-1202672964</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 12:50:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>cbfe39f672714fb090752df22efba100</sys_id>
+        <sys_metadata>272cb66f478e021025e7b4b4116d439c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Registro de atores</sys_name>
+        <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
+        <sys_parent display_value="Ator">5059b26b478e021025e7b4b4116d4336</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
+        <sys_scope_delete display_value="">0992b7bd6689427480b1325207dd0d24</sys_scope_delete>
+        <sys_update_name>sys_script_272cb66f478e021025e7b4b4116d439c</sys_update_name>
+        <sys_update_version display_value="sys_script_272cb66f478e021025e7b4b4116d439c">58c18cf9479a421025e7b4b4116d4328</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 12:50:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

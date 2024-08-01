@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>Tabs Configuration</description>
+        <name>chrome_tab</name>
+        <page display_value="Raposa Workspace">463f24805f2a86105501903509e8bc2d</page>
+        <required_translations>[ {
+  "message" : "New Ator",
+  "comment" : ""
+}, {
+  "message" : "New Diretor",
+  "comment" : ""
+}, {
+  "message" : "New Filmes",
+  "comment" : ""
+}, {
+  "message" : "New m2m_Filmes_Ators",
+  "comment" : ""
+}, {
+  "message" : "New m2m_Filmes_Diretors",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-28 14:30:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>063f2480e62a8610f106deaa33c1431f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
+        <sys_update_name>sys_ux_page_property_063f2480e62a8610f106deaa33c1431f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-28 14:31:04</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1300284_raposa_0.463f24805f2a86105501903509e8bc2d.root.chrome_tab</unique_name>
+        <value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New Filmes"},"routeInfo":{"route":"record","fields":{"table":"x_1300284_raposa_0_filmes","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1300284_raposa_0_filmes","canCreate":true}}},{"label":{"translatable":true,"message":"New Diretor"},"routeInfo":{"route":"record","fields":{"table":"x_1300284_raposa_0_diretor","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1300284_raposa_0_diretor","canCreate":true}}},{"label":{"translatable":true,"message":"New m2m_Filmes_Ators"},"routeInfo":{"route":"record","fields":{"table":"x_1300284_raposa_0_m2m_filmes_atores","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1300284_raposa_0_m2m_filmes_atores","canCreate":true}}},{"label":{"translatable":true,"message":"New m2m_Filmes_Diretors"},"routeInfo":{"route":"record","fields":{"table":"x_1300284_raposa_0_film_diretor","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1300284_raposa_0_film_diretor","canCreate":true}}},{"label":{"translatable":true,"message":"New Ator"},"routeInfo":{"route":"record","fields":{"table":"x_1300284_raposa_0_ator","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1300284_raposa_0_ator","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=063f2480e62a8610f106deaa33c1431f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</application>
+        <file_path/>
+        <instance_id>996eb3b01b5639d839a54089bd4bcb55</instance_id>
+        <instance_name>dev200924</instance_name>
+        <name>sys_ux_page_property_063f2480e62a8610f106deaa33c1431f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>Tabs Configuration</description><name>chrome_tab</name><page display_value="Raposa Workspace">463f24805f2a86105501903509e8bc2d</page><required_translations>[ {
+  "message" : "New Ator",
+  "comment" : ""
+}, {
+  "message" : "New Diretor",
+  "comment" : ""
+}, {
+  "message" : "New Filmes",
+  "comment" : ""
+}, {
+  "message" : "New m2m_Filmes_Ators",
+  "comment" : ""
+}, {
+  "message" : "New m2m_Filmes_Diretors",
+  "comment" : ""
+} ]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-28 14:30:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>063f2480e62a8610f106deaa33c1431f</sys_id><sys_mod_count>1</sys_mod_count><sys_name>chrome_tab</sys_name><sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package><sys_policy/><sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope><sys_update_name>sys_ux_page_property_063f2480e62a8610f106deaa33c1431f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-28 14:31:04</sys_updated_on><type>json</type><unique_name>x_1300284_raposa_0.463f24805f2a86105501903509e8bc2d.root.chrome_tab</unique_name><value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New Filmes"},"routeInfo":{"route":"record","fields":{"table":"x_1300284_raposa_0_filmes","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1300284_raposa_0_filmes","canCreate":true}}},{"label":{"translatable":true,"message":"New Diretor"},"routeInfo":{"route":"record","fields":{"table":"x_1300284_raposa_0_diretor","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1300284_raposa_0_diretor","canCreate":true}}},{"label":{"translatable":true,"message":"New m2m_Filmes_Ators"},"routeInfo":{"route":"record","fields":{"table":"x_1300284_raposa_0_m2m_filmes_atores","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1300284_raposa_0_m2m_filmes_atores","canCreate":true}}},{"label":{"translatable":true,"message":"New m2m_Filmes_Diretors"},"routeInfo":{"route":"record","fields":{"table":"x_1300284_raposa_0_film_diretor","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1300284_raposa_0_film_diretor","canCreate":true}}},{"label":{"translatable":true,"message":"New Ator"},"routeInfo":{"route":"record","fields":{"table":"x_1300284_raposa_0_ator","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1300284_raposa_0_ator","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=063f2480e62a8610f106deaa33c1431f"/></record_update>]]></payload>
+        <payload_hash>1308166873</payload_hash>
+        <record_name>chrome_tab</record_name>
+        <reverted_from/>
+        <source>73e45c8c47a2861025e7b4b4116d4303</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-28 14:31:04</sys_created_on>
+        <sys_id>373fa480472a861025e7b4b4116d4385</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18fbf9ca3930000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-28 14:31:04</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>fb3fa480832a861040753dc86b619b84</update_guid>
+        <update_guid_history>fb3fa480832a861040753dc86b619b84:1308166873,b33fa480a92a8610e4fb3b234d3a0883:1470876141</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-05 23:28:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>7eaebd87844f4d1384900da3b14b3031</sys_id>
+        <sys_metadata>063f2480e62a8610f106deaa33c1431f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
+        <sys_scope_delete display_value="">0992b7bd6689427480b1325207dd0d24</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_063f2480e62a8610f106deaa33c1431f</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_063f2480e62a8610f106deaa33c1431f">373fa480472a861025e7b4b4116d4385</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-05 23:28:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

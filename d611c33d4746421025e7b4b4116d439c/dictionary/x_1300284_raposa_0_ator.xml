@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5059b26b478e021025e7b4b4116d4336" label="Ator" max_length="40" name="x_1300284_raposa_0_ator" text_index="true" type="collection">
+        <element display="true" label="Ator" max_length="40" name="ator" type="string"/>
+    </element>
+</database>

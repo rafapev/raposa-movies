@@ -2,7 +2,7 @@
     <sys_ux_client_script action="INSERT_OR_UPDATE">
         <controller_preset/>
         <includes/>
-        <macroponent display_value="Diretor">944fe480472a861025e7b4b4116d437b</macroponent>
+        <macroponent display_value="Diretor Record Page">944fe480472a861025e7b4b4116d437b</macroponent>
         <name>viewport_gph/initiallyCollapsed</name>
         <preset/>
         <required_translations/>

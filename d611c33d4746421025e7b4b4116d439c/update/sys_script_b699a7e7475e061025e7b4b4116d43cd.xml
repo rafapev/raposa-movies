@@ -16,7 +16,7 @@
         <description/>
         <execute_function>false</execute_function>
         <filter_condition table="sc_req_item">cat_item=55cc75b947d6821025e7b4b4116d43bd^stageCHANGESTOrequest_approved^EQ<item display_table="sc_cat_item" display_value="Filme Avaliação" endquery="false" field="cat_item" goto="false" newquery="false" operator="=" or="false" value="55cc75b947d6821025e7b4b4116d43bd"/>
-            <item display_value="request_approved" endquery="false" field="stage" goto="false" newquery="false" operator="CHANGESTO" or="false" value="request_approved"/>
+            <item display_value="Request Approved" endquery="false" field="stage" goto="false" newquery="false" operator="CHANGESTO" or="false" value="request_approved"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>

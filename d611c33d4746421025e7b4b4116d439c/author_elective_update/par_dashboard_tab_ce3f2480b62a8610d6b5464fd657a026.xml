@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_tab">
+    <par_dashboard_tab action="DELETE">
+        <active>true</active>
+        <background_color/>
+        <dashboard display_value="">863f2480d62a86104b8722d684a70a26</dashboard>
+        <name>Tab</name>
+        <order>0</order>
+        <sys_class_name>par_dashboard_tab</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-28 14:30:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>ce3f2480b62a8610d6b5464fd657a026</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
+        <sys_update_name>par_dashboard_tab_ce3f2480b62a8610d6b5464fd657a026</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-28 14:30:59</sys_updated_on>
+    </par_dashboard_tab>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</application>
+        <file_path/>
+        <instance_id>996eb3b01b5639d839a54089bd4bcb55</instance_id>
+        <instance_name>dev200924</instance_name>
+        <name>par_dashboard_tab_ce3f2480b62a8610d6b5464fd657a026</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_tab"><par_dashboard_tab action="INSERT_OR_UPDATE"><active>true</active><background_color/><dashboard display_value="">863f2480d62a86104b8722d684a70a26</dashboard><name>Tab</name><order>0</order><sys_class_name>par_dashboard_tab</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-28 14:30:59</sys_created_on><sys_domain>global</sys_domain><sys_id>ce3f2480b62a8610d6b5464fd657a026</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Tab</sys_name><sys_overrides/><sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package><sys_policy/><sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope><sys_update_name>par_dashboard_tab_ce3f2480b62a8610d6b5464fd657a026</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-28 14:30:59</sys_updated_on></par_dashboard_tab></record_update>]]></payload>
+        <payload_hash>863771844</payload_hash>
+        <record_name>Tab</record_name>
+        <reverted_from/>
+        <source>8a420b004721021025e7b4b4116d4335</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-04-09 08:10:41</sys_created_on>
+        <sys_id>d101f29447aa021025e7b4b4116d4375</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18ec1e8c3e80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>PAR Dashboard Tab</type>
+        <update_guid>9101f294e4aa021059d6f4e634376575</update_guid>
+        <update_guid_history>9101f294e4aa021059d6f4e634376575:863771844</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Tab">5d01f29447aa021025e7b4b4116d4375</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 18:36:33</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_tab">par_dashboard_tab</sys_db_object>
+        <sys_id>36f0f3fd7fd94b06976fd04d236d1e11</sys_id>
+        <sys_metadata>ce3f2480b62a8610d6b5464fd657a026</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tab</sys_name>
+        <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
+        <sys_scope_delete display_value="">0992b7bd6689427480b1325207dd0d24</sys_scope_delete>
+        <sys_update_name>par_dashboard_tab_ce3f2480b62a8610d6b5464fd657a026</sys_update_name>
+        <sys_update_version display_value="par_dashboard_tab_ce3f2480b62a8610d6b5464fd657a026">d101f29447aa021025e7b4b4116d4375</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 18:36:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

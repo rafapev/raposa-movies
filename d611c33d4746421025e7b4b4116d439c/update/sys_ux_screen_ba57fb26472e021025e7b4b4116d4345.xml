@@ -7,7 +7,7 @@
         <event_mappings>[
     
 ]</event_mappings>
-        <macroponent display_value="Diretor">7a57fb26472e021025e7b4b4116d4334</macroponent>
+        <macroponent display_value="Diretor Record Page">7a57fb26472e021025e7b4b4116d4334</macroponent>
         <macroponent_config>{
     "bare": {
         "type": "JSON_LITERAL",

@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="Raposa Workspace App Config">063f24801a2a86105e4a8bdd8e697a2e</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <event_mappings>[
+    {
+        "eventMappingId": "clgwmwhhiaaawiieeddbhhwcjvmohhwk",
+        "isConfiguration": false,
+        "offRowStorageId": null,
+        "sourceEventApiName": "sn_app_analytics_w.NAV_ITEM_SELECTED_RELAY_ed7ad8a1c313101001a6e0dd9740ddd1",
+        "sourceEventCorrelationId": null,
+        "sourceEventSysId": null,
+        "targets": [
+            {
+                "targetId": "clgwmwhhiaaawiiffddbhhwpggghccqjl",
+                "type": "EVENT",
+                "declarativeAction": null,
+                "event": {
+                    "sysId": "8b82bf18e5276c8e423b6e4e0889b463",
+                    "payload": {
+                        "type": "MAP_CONTAINER",
+                        "container": {
+                            "route": {
+                                "type": "EVENT_PAYLOAD_BINDING",
+                                "binding": {
+                                    "address": [
+                                        "route"
+                                    ]
+                                }
+                            },
+                            "fields": {
+                                "type": "EVENT_PAYLOAD_BINDING",
+                                "binding": {
+                                    "address": [
+                                        "fields"
+                                    ]
+                                }
+                            },
+                            "params": {
+                                "type": "EVENT_PAYLOAD_BINDING",
+                                "binding": {
+                                    "address": [
+                                        "params"
+                                    ]
+                                }
+                            },
+                            "redirect": {
+                                "type": "EVENT_PAYLOAD_BINDING",
+                                "binding": {
+                                    "address": [
+                                        "redirect"
+                                    ]
+                                }
+                            },
+                            "passiveNavigation": {
+                                "type": "EVENT_PAYLOAD_BINDING",
+                                "binding": {
+                                    "address": [
+                                        "passiveNavigation"
+                                    ]
+                                }
+                            },
+                            "title": {
+                                "type": "EVENT_PAYLOAD_BINDING",
+                                "binding": {
+                                    "address": [
+                                        "title"
+                                    ]
+                                }
+                            },
+                            "multiInstField": {
+                                "type": "EVENT_PAYLOAD_BINDING",
+                                "binding": {
+                                    "address": [
+                                        "multiInstField"
+                                    ]
+                                }
+                            },
+                            "targetRoute": {
+                                "type": "EVENT_PAYLOAD_BINDING",
+                                "binding": {
+                                    "address": [
+                                        "targetRoute"
+                                    ]
+                                }
+                            },
+                            "external": null
+                        }
+                    },
+                    "apiName": "sn_canvas_core.NAV_ITEM_SELECTED"
+                },
+                "operation": null,
+                "clientScript": null,
+                "conditional": null,
+                "broker": null
+            }
+        ],
+        "sourceEventDefinition": {
+            "id": null,
+            "apiName": "sn_app_analytics_w.NAV_ITEM_SELECTED_RELAY_ed7ad8a1c313101001a6e0dd9740ddd1",
+            "type": "UXEVENT"
+        }
+    }
+]</event_mappings>
+        <macroponent display_value="KPI Details">ed7ad8a1c313101001a6e0dd9740ddd1</macroponent>
+        <macroponent_config>{
+    "label": {
+        "type": "TRANSLATION_LITERAL",
+        "value": {
+            "code": null,
+            "message": "",
+            "comment": ""
+        }
+    },
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    }
+}</macroponent_config>
+        <name>KPI Details Default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="KPI Details">0e3f24809b2a86104562a730321c2620</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-28 14:30:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4a3f2480df2a86101ebeb3b32d6b431a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KPI Details Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
+        <sys_update_name>sys_ux_screen_4a3f2480df2a86101ebeb3b32d6b431a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-28 14:30:58</sys_updated_on>
+    </sys_ux_screen>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</application>
+        <file_path/>
+        <instance_id>996eb3b01b5639d839a54089bd4bcb55</instance_id>
+        <instance_name>dev200924</instance_name>
+        <name>sys_ux_screen_4a3f2480df2a86101ebeb3b32d6b431a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="Raposa Workspace App Config">063f24801a2a86105e4a8bdd8e697a2e</app_config><description/><disable_auto_reflow>false</disable_auto_reflow><event_mappings>[
+    {
+        "eventMappingId": "clgwmwhhiaaawiieeddbhhwcjvmohhwk",
+        "isConfiguration": false,
+        "offRowStorageId": null,
+        "sourceEventApiName": "sn_app_analytics_w.NAV_ITEM_SELECTED_RELAY_ed7ad8a1c313101001a6e0dd9740ddd1",
+        "sourceEventCorrelationId": null,
+        "sourceEventSysId": null,
+        "targets": [
+            {
+                "targetId": "clgwmwhhiaaawiiffddbhhwpggghccqjl",
+                "type": "EVENT",
+                "declarativeAction": null,
+                "event": {
+                    "sysId": "8b82bf18e5276c8e423b6e4e0889b463",
+                    "payload": {
+                        "type": "MAP_CONTAINER",
+                        "container": {
+                            "route": {
+                                "type": "EVENT_PAYLOAD_BINDING",
+                                "binding": {
+                                    "address": [
+                                        "route"
+                                    ]
+                                }
+                            },
+                            "fields": {
+                                "type": "EVENT_PAYLOAD_BINDING",
+                                "binding": {
+                                    "address": [
+                                        "fields"
+                                    ]
+                                }
+                            },
+                            "params": {
+                                "type": "EVENT_PAYLOAD_BINDING",
+                                "binding": {
+                                    "address": [
+                                        "params"
+                                    ]
+                                }
+                            },
+                            "redirect": {
+                                "type": "EVENT_PAYLOAD_BINDING",
+                                "binding": {
+                                    "address": [
+                                        "redirect"
+                                    ]
+                                }
+                            },
+                            "passiveNavigation": {
+                                "type": "EVENT_PAYLOAD_BINDING",
+                                "binding": {
+                                    "address": [
+                                        "passiveNavigation"
+                                    ]
+                                }
+                            },
+                            "title": {
+                                "type": "EVENT_PAYLOAD_BINDING",
+                                "binding": {
+                                    "address": [
+                                        "title"
+                                    ]
+                                }
+                            },
+                            "multiInstField": {
+                                "type": "EVENT_PAYLOAD_BINDING",
+                                "binding": {
+                                    "address": [
+                                        "multiInstField"
+                                    ]
+                                }
+                            },
+                            "targetRoute": {
+                                "type": "EVENT_PAYLOAD_BINDING",
+                                "binding": {
+                                    "address": [
+                                        "targetRoute"
+                                    ]
+                                }
+                            },
+                            "external": null
+                        }
+                    },
+                    "apiName": "sn_canvas_core.NAV_ITEM_SELECTED"
+                },
+                "operation": null,
+                "clientScript": null,
+                "conditional": null,
+                "broker": null
+            }
+        ],
+        "sourceEventDefinition": {
+            "id": null,
+            "apiName": "sn_app_analytics_w.NAV_ITEM_SELECTED_RELAY_ed7ad8a1c313101001a6e0dd9740ddd1",
+            "type": "UXEVENT"
+        }
+    }
+]</event_mappings><macroponent display_value="KPI Details">ed7ad8a1c313101001a6e0dd9740ddd1</macroponent><macroponent_config>{
+    "label": {
+        "type": "TRANSLATION_LITERAL",
+        "value": {
+            "code": null,
+            "message": "",
+            "comment": ""
+        }
+    },
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    }
+}</macroponent_config><name>KPI Details Default</name><order>0</order><parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><required_translations>[ ]</required_translations><rollback_screen/><screen_condition/><screen_type display_value="KPI Details">0e3f24809b2a86104562a730321c2620</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-28 14:30:58</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4a3f2480df2a86101ebeb3b32d6b431a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>KPI Details Default</sys_name><sys_overrides/><sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package><sys_policy/><sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope><sys_update_name>sys_ux_screen_4a3f2480df2a86101ebeb3b32d6b431a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-28 14:30:58</sys_updated_on></sys_ux_screen></record_update>]]></payload>
+        <payload_hash>-2005635915</payload_hash>
+        <record_name>KPI Details Default</record_name>
+        <reverted_from/>
+        <source>c1f166114722021025e7b4b4116d43cc</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-01 20:04:38</sys_created_on>
+        <sys_id>7a063ba2472e021025e7b4b4116d431d</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fd56773f00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Screen</type>
+        <update_guid>3a063ba2ab2e0210a7a22db72d62521d</update_guid>
+        <update_guid_history>3a063ba2ab2e0210a7a22db72d62521d:-2005635915</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-05 23:24:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>4cca25bd887f408887881f34acaa5840</sys_id>
+        <sys_metadata>4a3f2480df2a86101ebeb3b32d6b431a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KPI Details Default</sys_name>
+        <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
+        <sys_scope_delete display_value="">0992b7bd6689427480b1325207dd0d24</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_4a3f2480df2a86101ebeb3b32d6b431a</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_4a3f2480df2a86101ebeb3b32d6b431a">7a063ba2472e021025e7b4b4116d431d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-05 23:24:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

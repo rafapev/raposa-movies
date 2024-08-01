@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="DELETE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    
+]</composition>
+        <da_relay_models/>
+        <data>[
+    
+]</data>
+        <description/>
+        <dispatched_events>9965b79853030110aab9ddeeff7b1240</dispatched_events>
+        <ext_controller_dep/>
+        <extends display_value="Technical dashboard template">2395ddb853772110784cddeeff7b1251</extends>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <layout/>
+        <macroponent_dependencies/>
+        <name>Filmes default</name>
+        <output_prop_mapping/>
+        <props>[
+    
+]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[
+    
+]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-05 23:00:18</sys_created_on>
+        <sys_id>4180b3ea47ea021025e7b4b4116d4358</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Filmes default</sys_name>
+        <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
+        <sys_update_name>sys_ux_macroponent_4180b3ea47ea021025e7b4b4116d4358</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-05 23:00:19</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="DELETE" query="documentkey=4180b3ea47ea021025e7b4b4116d4358"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</application>
+        <file_path/>
+        <instance_id>996eb3b01b5639d839a54089bd4bcb55</instance_id>
+        <instance_name>dev200924</instance_name>
+        <name>sys_ux_macroponent_4180b3ea47ea021025e7b4b4116d4358</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent"><sys_ux_macroponent action="INSERT_OR_UPDATE"><associated_types/><bundles/><category>page</category><component_dependencies/><composition>[
+    
+]</composition><da_relay_models/><data>[
+    
+]</data><description/><dispatched_events>9965b79853030110aab9ddeeff7b1240</dispatched_events><ext_controller_dep/><extends display_value="Technical dashboard template">2395ddb853772110784cddeeff7b1251</extends><extension_point/><handled_events/><interactions/><interfaces/><internal_event_mappings>{}</internal_event_mappings><layout/><macroponent_dependencies/><name>Filmes default</name><output_prop_mapping/><props>[
+    
+]</props><required_translations>[ ]</required_translations><root_component/><root_component_config/><root_component_definition/><schema_version>1.0.0</schema_version><state_properties>[
+    
+]</state_properties><sys_class_name>sys_ux_macroponent</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-05 23:00:18</sys_created_on><sys_id>4180b3ea47ea021025e7b4b4116d4358</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Filmes default</sys_name><sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package><sys_policy/><sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope><sys_update_name>sys_ux_macroponent_4180b3ea47ea021025e7b4b4116d4358</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-05 23:00:19</sys_updated_on></sys_ux_macroponent><sys_translated_text action="delete_multiple" query="documentkey=4180b3ea47ea021025e7b4b4116d4358"/></record_update>]]></payload>
+        <payload_hash>112442368</payload_hash>
+        <record_name>Filmes default</record_name>
+        <reverted_from/>
+        <source>73e45c8c47a2861025e7b4b4116d4303</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-05 23:00:19</sys_created_on>
+        <sys_id>5d8073ea47ea021025e7b4b4116d43bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18feaa1bdbc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-05 23:00:19</sys_updated_on>
+        <type>UX Macroponent Definition</type>
+        <update_guid>158073ea15ea0210de0b33d949945abd</update_guid>
+        <update_guid_history>158073ea15ea0210de0b33d949945abd:112442368,5d80b3eab7ea0210eecb1871342d516e:986264432,0180b3eaedea0210f1b54deffc3f1a5a:-658064592</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-05 23:01:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_macroponent">sys_ux_macroponent</sys_db_object>
+        <sys_id>0660123c8d3c42f184f6efcad09ab7e1</sys_id>
+        <sys_metadata>4180b3ea47ea021025e7b4b4116d4358</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Filmes default</sys_name>
+        <sys_package display_value="Raposa Aí Reviews" source="x_1300284_raposa_0">d611c33d4746421025e7b4b4116d439c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Raposa Aí Reviews">d611c33d4746421025e7b4b4116d439c</sys_scope>
+        <sys_scope_delete display_value="">0992b7bd6689427480b1325207dd0d24</sys_scope_delete>
+        <sys_update_name>sys_ux_macroponent_4180b3ea47ea021025e7b4b4116d4358</sys_update_name>
+        <sys_update_version display_value="sys_ux_macroponent_4180b3ea47ea021025e7b4b4116d4358">5d8073ea47ea021025e7b4b4116d43bd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-05 23:01:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
